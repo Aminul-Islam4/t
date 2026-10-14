@@ -70,3 +70,12 @@ dialog::backdrop{background:rgba(22,33,44,.5)}
 .form-actions{display:flex;gap:.5rem;justify-content:flex-end}
 
 @media (max-width:600px){ main{padding:.9rem} }
+
+.alert{background:#fdebc8;color:#5c3500;border-bottom:1px solid #e8c88a;padding:.6rem 1.25rem;font-size:.95rem}
+.alert a{color:#5c3500;font-weight:600}
+.alert .btn{margin-left:.5rem}
+.upload{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem}
+.upload select{width:auto}
+.upload input[type=file]{width:auto;flex:1;min-width:200px}
+.report-head{display:flex;justify-content:space-between;align-items:center;gap:.75rem;margin:1.75rem 0 .6rem}
+.report-head h2{margin:0}
